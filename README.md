@@ -2,35 +2,40 @@
 
 ClassBuilder AI is a powerful, multi-functional Discord bot designed to be the ultimate study assistant. Powered by the high-speed Groq API and the Llama 3 model, this bot transforms raw text and documents into structured study materials, answers questions with conversational context, and helps manage your Discord channels.
 
-## ✨ Features
+## Features
 
 ClassBuilder AI offers a suite of features accessible through intuitive slash commands and direct mentions:
 
-### 📚 Interactive Study Tools
-
+### Interactive Study Tools
 - **`/summary [attachment] [word_count]`**: Generates a concise summary of uploaded text or PDF files to a specified word count.
 - **`/notes [attachment]`**: Creates clean, well-structured, pointwise notes from your study materials, perfect for quick reviews.
 - **`/quiz [attachment] [num_questions]`**: Generates a custom number of quiz questions based on the educational content of your documents, complete with spoiler-tagged answers. The AI is specifically instructed to ignore metadata and focus only on the core subject matter.
 
-### 🧠 Conversational Q&A with Memory
-
+### Conversational Q&A with Memory
 - **`@ClassBuilder what is...?`**: Mention the bot to ask any general knowledge question or follow-up questions. The bot remembers the last 10 messages in the channel to provide contextually aware answers.
 
-### 👋 Greetings and Help
-
-- **`hi`, `hello`, `hey`**: The bot will respond with a friendly greeting and a list of its available commands.
-
-### 📦 Content Export
-
+### Content Export
 - **`/export [format] [attachment]`**: Bundles a summary, notes, and a quiz into a single downloadable file. Supported formats are `.txt` and `.json`.
 
-### 🛠️ Channel Moderation
-
+### Channel Moderation
 - **`/clear [amount]`**: Deletes a specified number of recent messages in a channel (messages must be less than 14 days old). Requires "Manage Messages" permission.
 
-> **Note**: This bot version does not include a `/nuke` command.
+## ClassBuilder AI in Action:
 
-## 🚀 Setup and Installation
+Here are some examples of the different Functions in ClassBuilder.
+
+#### ClassBuilder Functions
+![ClassBuilder Functions](classbuilder_ai_demo/classbuilder_ai_demo1.png)
+#### Summary
+![Summary](classbuilder_ai_demo/classbuilder_ai_demo2.png)
+#### Notes
+![Notes](classbuilder_ai_demo/classbuilder_ai_demo3.png)
+#### Quiz
+![Quiz](classbuilder_ai_demo/classbuilder_ai_demo4.png)
+#### Personal Assistant
+![Personal Assistant](classbuilder_ai_demo/classbuilder_ai_demo6.png)
+
+## Setup and Installation
 
 Follow these steps to get your own instance of the ClassBuilder AI bot running.
 
