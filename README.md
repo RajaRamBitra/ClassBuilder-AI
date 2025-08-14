@@ -104,7 +104,7 @@ You must invite the bot using a correctly configured URL to enable slash command
 
 Execute the Python script. If you are using the provided Colab notebook, simply run all the cells in order. The bot will start if the `DISCORD_BOT_TOKEN` and `GROQ_API_KEY` are successfully loaded.
 
-## 📖 Usage Guide
+## Usage Guide
 
 Once the bot is online, you can interact with it in the following ways:
 
@@ -135,17 +135,17 @@ After the bot responds, mention it again with a follow-up.
 @ClassBuilder can you explain the first one in more detail?
 ```
 
-## 💻 Technologies Used
+## Technologies Used
 
 - **Backend**: Python
 - **API**: Groq with the `llama3-70b-8192` model
 - **Discord Integration**: `discord.py`
 - **PDF Parsing**: `PyMuPDF`
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
